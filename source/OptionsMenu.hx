@@ -44,6 +44,7 @@ class OptionsMenu extends MusicBeatState
 			(FlxG.save.data.eyesores ? 'Eyesores Enabled' : 'Eyesores Disabled') + "\n" + 
 			(FlxG.save.data.donoteclick ? "Hitsounds On" : "Hitsounds Off") + "\n" + 
 			(FlxG.save.data.freeplayCuts ? "Cutscenes On" : "Cutscenes Off") + "\n" + 
+			(FlxG.save.data.botplay ? "Botplay On" : "Botplay Off") + "\n" + 
 			preloadTXT[FlxG.save.data.preload]
 		);
 		
